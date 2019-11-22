@@ -67,7 +67,7 @@ var SingleSpaAssetWebpackPlugin = function () {
             config: {},
             beforeWrite: function beforeWrite(config, assetObj) {},
             afterWrite: function afterWrite(config, path) {},
-            isOverride: false
+            isOverride: true
         };
         this.config = _lodash2.default.extend(this.defaultConfig, config);
     }

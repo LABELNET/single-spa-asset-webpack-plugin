@@ -46,7 +46,7 @@ export default class SingleSpaAssetWebpackPlugin {
             config: {},
             beforeWrite: (config, assetObj) => {},
             afterWrite: (config, path) => {},
-            isOverride: false
+            isOverride: true
         };
         this.config = _.extend(this.defaultConfig, config);
     }
