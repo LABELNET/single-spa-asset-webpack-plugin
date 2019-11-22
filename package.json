@@ -1,0 +1,40 @@
+{
+  "name": "single-spa-asset-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Single Spa child module webpack plugin",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "prepublish": "babel src/index.js --out-file ./index.js"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "single-spa",
+    "asset",
+    "single-spa-asset-webpack-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LABELNET/single-spa-asset-webpack-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LABELNET/single-spa-asset-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/LABELNET/single-spa-asset-webpack-plugin",
+  "author": "labelnet (https://github.com/LABELNET)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-lodash": "^3.2.11",
+    "babel-preset-env": "^1.4.0",
+    "babelify": "^7.3.0"
+  },
+  "dependencies": {
+    "fs-path": "0.0.23",
+    "lodash": "^4.17.4"
+  }
+}
