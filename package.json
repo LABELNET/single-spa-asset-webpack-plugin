@@ -34,7 +34,7 @@
     "babelify": "^7.3.0"
   },
   "dependencies": {
-    "fs-path": "0.0.23",
+    "fs-path": "0.0.25",
     "lodash": "^4.17.4"
   }
 }
